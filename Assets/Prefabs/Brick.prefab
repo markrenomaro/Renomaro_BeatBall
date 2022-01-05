@@ -108,5 +108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f251aee2b85bdcb4ba52fe2d5ae8310d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hits: 1
+  hits: 2
   points: 10
+  rotator: {x: 45, y: 0, z: 0}
