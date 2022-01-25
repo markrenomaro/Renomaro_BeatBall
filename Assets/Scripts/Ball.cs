@@ -32,6 +32,7 @@ public class Ball : MonoBehaviour
         {
             GameManager.Instance.Balls--;
             Destroy(gameObject);
+            SoundManager.PlaySound("DropSFX");
         }
     }
 

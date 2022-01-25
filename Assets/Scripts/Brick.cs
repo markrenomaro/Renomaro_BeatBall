@@ -32,7 +32,7 @@ public class Brick : MonoBehaviour
         GameManager.Instance.Score += points;
         if (hits <= 0)
         {
-        
+        SoundManager.PlaySound("BumpSFX");
             Destroy(gameObject);
         }
         _renderer.sharedMaterial = hitMaterial;
